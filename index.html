@@ -1,0 +1,17 @@
+<!-- JW Player Library -->
+<script src="https://content.jwplatform.com/libraries/p654DhnO.js"></script>
+
+<!-- div for the player -->
+<div id='cello'></div>
+
+<!-- Script to display video file in the player div -->
+<script type='text/javascript'>
+    jwplayer('cello').setup({
+        // URL to the video file
+        file: 'test.mp4',
+        // URL to the image that should be shown before the video is started
+        width: '100%',
+        aspectratio: '16:9',
+        autostart: true
+    });
+</script>
